@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Diana Deustch's 'Mysterious Melody Illusion'</title>
+    <script src="https://tonejs.github.io/build/Tone.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="mainwrap">
+        <h1>Diana Deutsch's 'Mysterious Melody Illusion'</h1>
+        Click the buttons at the bottom to play a web audio version of the mysterious melody illusion.<br />
+        The following text and images have been taken from <a href="https://deutsch.ucsd.edu/psychology/pages.php?i=202">Diana Deutsch's Website'</a>:
+        <p>
+            <div class="deutschwrap">
+                <p>The ‘Mysterious Melody’ illusion was discovered and first published by Deutsch in Perception and Psychophysics, 19721. This musical brain teaser shows how our knowledge of a piece of music can have a profound influence on how we hear it. Suppose you play a well-known tune such that all the note names (C, D, E, and so on) are correct, but the tones are distributed haphazardly among three different octaves. If people are given no clues as to what the tune might be, they find it very difficult to identify. But once they know what to listen for, the melody becomes easy to follow.</p>
+                <p>The ‘Mysterious Melody’ illusion provides a striking example of ‘top-down processing’, or the use of previously acquired knowledge, in sound perception. Other examples occur in vision. For example, when you first view the picture below, all you see is a jumble of blobs. But when you are told that it is a spotted Dalmation dog against a dappled background, you begin to see its ears, nose, tail, and so on, until the entire outline of the dog emerges. Our stored knowledge of thousands of dogs that we have seen in the past enables us to reconstruct this image correctly. Analogously, once we are told the name of this ‘Mysterious Melody’ we can draw on our knowledge of what it normally sounds like, so that we can recognize it. </p>
+                <img src="../images/mysterious_melody.jpg" width="40%" alt="Dalmation">
+                <p>Listen to the following example of a well-known tune, and try to guess its name.</p>
+            </div>
+        <p>This version uses a different well known tune.</p>
+        <button class="initbutton" onclick="adaptedMusic()">Web Audio API version of Deustch's Mysterious Melody Sound Demo 1</button>
+        <button class="initbutton" onclick="ogMusic()">Web Audio API version of Deustch's Mysterious Melody Sound Demo 2</button>
+    </div>
+
+    <img src="../images/page_optim.png" class="ribbon" id="right">
+    </img>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

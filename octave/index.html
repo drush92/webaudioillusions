@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Diana Deustch's 'Octave Illusion'</title>
+    <script src="https://tonejs.github.io/build/Tone.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="mainwrap">
+        <h1>Diana Deutsch's 'Octave Illusion'</h1>
+        Click the button at the bottom to play a web audio version of the octave illusion.<br />
+        The following text and images have been taken from <a href="https://deutsch.ucsd.edu/psychology/pages.php?i=202">Diana Deutsch's Website'</a>:
+        <p>
+            <div class="deutschwrap">
+                <p>
+                    "The Octave Illusion was discovered by Deutsch in 1973, first reported at a meeting of the Acoustical Society of America (Deutsch 1974)1 and first published in Deutsch, Nature (1974)2. 
+                <p>
+                    "Figure 1 shows the pattern that produces the Octave Illusion. Two tones that are spaced an octave apart are alternated repeatedly at a rate of four per second. The identical sequence is played over headphones to both ears simultaneously; however when the right ear receives the high tone the left ear receives the low tone; and vice versa. The tones are sine waves of constant amplitude, and follow each other without amplitude drops at the transitions. So in fact the listener is presented with a single, continuous two-tone chord, with the ear of input for each component switching repeatedly."
+                <p>
+                    <img src="../images/octave.jpg" width="40%" alt="Notes played for octave illusion">
+                <p>
+                    The Octave Illusion needs to be heard through stereo headphones. Make sure that the loudspeakers on your sound system are turned off, and that the left and right channels are balanced for loudness. Then readjust the settings on your amplifier so that the sounds, as heard through the headphones, are somewhat on the soft side.
+                <p>
+                    Now listen to this pattern. If you hear a higher tone in one ear and a lower tone in the other ear, decide which ear is hearing the higher tone. Then reverse the earphone positions and listen to the pattern again. Decide again which ear is hearing the higher tone.
+            </div>
+        <p>
+            <button class="initbutton" onclick="octavePlay()">Play Web Audio API version of Deutsch's Octave Illusion'</button>
+    </div>
+
+    <img src="../images/page_optim.png" class="ribbon" id="right">
+    </img>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

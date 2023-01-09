@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Diana Deustch's 'Speech-to-Song Illusion'</title>
+    <script src="https://tonejs.github.io/build/Tone.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="mainwrap">
+        <h1>Diana Deutsch's 'Speech-to-Song Illusion'</h1>
+        Click the button at the bottom to start the speech-to-song illusion.<br />
+        <p>The following text has been taken from <a href="https://deutsch.ucsd.edu/psychology/pages.php?i=212">Diana Deutsch's Website:</a></p>
+        <div class="deutschwrap">
+            <p>The Speech-to-Song Illusion was discovered by Deutsch in 1995, when she was fine-tuning the spoken commentary on her CD ‘Musical Illusions and Paradoxes’1. She had the phrase ‘sometimes behave so strangely’ on a loop, and noticed that after a number of repetitions, the phrase sounded as though sung rather than spoken. Later she included this illusion in the CD ‘Phantom Words and Other Curiosities’2, accompanied by the following commentary:</p>
+            <p><i>In our final demonstration, speech is made to be heard as song, and this is achieved without transforming the sounds in any way, or by adding any musical context, but simply by repeating a phrase several times over. The demonstration is based on a sentence at the beginning of the CD Musical Illusions and Paradoxes. When you listen to this sentence in the usual way, it appears to be spoken normally  - as indeed it is. However, when you play the phrase that is embedded in it: 'sometimes behave so strangely' over and over again, a curious thing happens. At some point, instead of appearing to be spoken, the words appear to be sung, rather as in the figure below. </i></p>
+            <img src="../images/speech_to_song.jpg" width="50%" alt="Speech-to-Song Illusion" />
+        </div>
+        <p>This version of the illusion has been replicated using speech synthesis created with the Web Audio API. The rate and pitch have been adjusted to match the original recording.</p>
+        <p><button class="initbutton" onclick="playSpeechSong()">Play Web Audio API version of Diana Deutsch's Speech-to-Song Illusion</button></p>
+    </div>
+
+    <script src="script.js"></script>
+
+    <img src="../images/page_optim.png" class="ribbon" id="right">
+    </img>
+
+</body>
+
+</html>

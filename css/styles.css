@@ -1,0 +1,83 @@
+body {
+    background-color: #011313; /* set the background whilst image loads */
+    font-family: Courier;
+    color: white;
+    background-image: url("../images/mesh_bg.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: white;
+    }
+
+.mainwrap {
+    margin: auto;
+    width: 80%;
+    border: 5px solid;
+    border-color: #fcfbf9;
+    background-color: #031c21;
+    text-align: center;
+    position: relative;
+    padding: 25px 25px;
+}
+
+.deutschwrap {
+    font-size: 12px;
+    margin: auto;
+    border: 2px solid;
+    border-color: #fcfbf9;
+    background-color: #5d7881;
+    text-align: center;
+    position: relative;
+    padding: 5px 5px;
+}
+
+
+.initbutton {
+    background-color: #021414;
+    border: solid;
+    border-color: #8aa1a9;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.initbutton:hover {
+    background-color: ghostwhite;
+    border: solid;
+    border-color: #8aa1a9;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.initbutton {
+    transition-duration: 0.4s;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    right: -3%;
+}
+
+#right {
+    float: right;
+    width: 20%;
+}
